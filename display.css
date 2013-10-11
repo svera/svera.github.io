@@ -1,0 +1,58 @@
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p, dt, dd {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+}
+
+header {
+    background-color: #eee;
+    margin-bottom: 2em;
+}
+
+div.media {
+    padding: 1em 0;
+}
+
+header nav  {
+    padding: .5em 0;
+    color: #fff;
+}
+
+header nav ul {
+    margin: 0;
+}
+
+header #languages {
+    background-color: #000;
+}
+
+aside {
+    margin-top: 2em;
+}
+
+aside h3 {
+    margin: 0;
+}
+
+dl dt:not(:first-child) {
+    margin-top: 2em;
+}
+
+#experience dt + dd + dd {
+    margin-top: 1em;
+}
+
+#networks-links a:hover {
+    text-decoration: none;
+}
+
+.list-inline > li {
+    padding-left: 0;
+}
+
+footer {
+    margin-top: 5em;
+}
