@@ -25,6 +25,10 @@ header nav ul {
     margin: 0;
 }
 
+header nav a, header nav a:hover {
+    color: #ddd;
+}
+
 header #languages {
     background-color: #000;
 }
@@ -55,4 +59,8 @@ dl dt:not(:first-child) {
 
 footer {
     margin-top: 5em;
+}
+
+article .lead {
+    margin-bottom: 2em;
 }
